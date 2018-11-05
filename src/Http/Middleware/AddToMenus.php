@@ -10,6 +10,7 @@ class AddToMenus
 
     public function handle($request, Closure $next)
     {
+
         // Add a menu option to the top to point to our page
         $menu = Menu::get('topnav');
 

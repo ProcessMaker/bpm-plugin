@@ -1,2 +1,2 @@
 <?php
-Router::get('/example', ['uses' => 'ExampleController@index', 'as' => 'plugin-example-index']);
+Route::get('/example', ['uses' => 'ExampleController@index', 'as' => 'plugin-example-index']);
